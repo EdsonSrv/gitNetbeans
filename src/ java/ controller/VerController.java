@@ -22,7 +22,7 @@ public class VerController {
     
     //siempre los métodos de los controladores deben retornar un 
     @RequestMapping(method = RequestMethod.GET)
-    public String otroMetodo(Model model){
+    public String otroMetodo(Model model){//pru exitosaeba
         return "index";
     }
     
